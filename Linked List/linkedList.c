@@ -40,7 +40,7 @@ void display(Node *node)
 {
     printf("\nThe list is:\n");
 
-    while (node) // while(node != NULL)
+    while (node) // while (node != NULL)
     {
         printf("%d ", node->data);
         node = node->next;
